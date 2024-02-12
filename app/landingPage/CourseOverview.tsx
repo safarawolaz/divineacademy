@@ -34,7 +34,7 @@ const CourseOverview = () => {
              {
               advantages.map(advantage => (
                 <div className="bg-[#283891] w-full h-40 rounded-lg flex items-center justify-center shadow-sm" key={advantage.id}>
-                <h3 className='text-2xl font-bold capitalize px-10 text-center text-white'>{advantage.desc}</h3>
+                <h3 className='text-2xl tracking-wide font-bold capitalize px-10 text-center text-white'>{advantage.desc}</h3>
               </div> 
               ))
              }

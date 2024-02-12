@@ -48,7 +48,7 @@ const MobileLink = () => {
   return (
     <Sheet>
         <SheetTrigger><AlignRight className='w-7 h-7 lg:hidden text-[#283891]' /></SheetTrigger>
-        <SheetContent className='bg-neutral-400'>
+        <SheetContent className='bg-white'>
             <SheetHeader>
                 <SheetDescription>
                     <div className="">
@@ -62,9 +62,9 @@ const MobileLink = () => {
                         {
                             links.map(link => (
                                 <SheetClose asChild key={link.id} >
-                                    <Link href={link.url} className={cn('uppercase text-base font-semibold tracking-widest hover:translate-x-2 hover:text-[#1b1b1b] transition-all',
+                                    <Link href={link.url} className={cn('uppercase text-base font-semibold tracking-widest hover:translate-x-2 hover:text-[#283891] transition-all',
                                         {
-                                            'text-[#1b1b1b] font-bold transition-all' : pathname === link.url
+                                            'text-[#283891] font-bold transition-all' : pathname === link.url
                                         }
                                     )}>
                                         {link.name}

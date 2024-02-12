@@ -82,10 +82,15 @@ const Navbar = () => {
                 <ul className='hidden lg:flex lg:gap-2 xl:gap-8 items-center'>
                     {
                         links.map(link => (
-                    <li key={link.id} className='py-6 px-3 '>
+                    <li key={link.id} className='py-6 px-3 relative'>
+                        <div className={cn('w-2 h-2 bg-transparent rounded-full absolute left-1/2 top-4',
+                        {
+                          'w-2 h-2 bg-[#283891] rounded-full absolute left-1/2 top-4' : pathname === link.url
+                        }
+                        )} />
                         <Link href={link.url} className={cn('uppercase font-bold text-base tracking-widest flex items-center text-[#535666] gap-1 ', 
                             {
-                            'font-bold' : pathname === link.url, 
+                            'font-bold text-[#283891]' : pathname === link.url, 
                             }) }>
                                 
                           {link.title}

@@ -1,4 +1,4 @@
-import { Clock1, FacebookIcon, InstagramIcon, PhoneIncoming, XIcon } from "lucide-react"
+import { Clock1, FacebookIcon, InstagramIcon, MailCheckIcon, MapPinIcon, PhoneIncoming, XIcon } from "lucide-react"
 import Image from "next/image"
 
 const col1 = [
@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
 
             <div className="">
-                <h3 className="text-white text-xl font-bold capitalize">usefull links</h3>
+                <h3 className="text-white text-xl font-bold capitalize">useful links</h3>
                 <p className="text-muted-foreground text-base mt-4 capitalize">popular courses</p>
                 <p className="text-muted-foreground text-base mt-2 capitalize">forums</p>
                 <p className="text-muted-foreground text-base mt-2 capitalize">our teachers</p>
@@ -60,9 +60,14 @@ const Footer = () => {
             </div>
 
             <div className="">
-                <h3 className="text-white text-xl font-bold capitalize">flexible learning</h3>
-                <div className="h-[150px] w-[160px] relative mt-4 rounded-lg overflow-hidden">
-                    <Image src='/footerImg.jpg' fill alt='footer image' objectFit="cover" />
+                <h3 className="text-white text-xl font-bold capitalize">find us</h3>
+                <div className="flex justify-start mt-4">
+                    <MapPinIcon className="w-4 h-4 text-white mr-1" />
+                    <p className="text-base text-muted-foreground">1466 Chris Hani Street <br /> Kanyamazane <br/> Mbombela 1200</p>
+                </div>
+                <div className="flex items-center mt-2">
+                    <MailCheckIcon className="w-4 h-4 mr-1 text-white" />
+                    <p className="text-muted-foreground">admin@divineacademy.co.za</p>
                 </div>
             </div>
         </div>
