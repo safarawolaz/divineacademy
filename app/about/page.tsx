@@ -13,7 +13,7 @@ const page = () => {
           </div>
           <div className="px-4 sm:px-10">
             <h3 className="text-4xl text-[#1b1b1b] font-bold tracking-tight">About Us</h3>
-            <p className="mt-4 text-muted-foreground text base leading-[1.7]">At Divine Academy, we are dedicated to empowering individuals with the knowledge and skills they need to thrive in today's rapidly changing world. We understand that continuous learning and upskilling are essential for personal growth and professional success.</p>
+            <p className="mt-4 text-muted-foreground text base leading-[1.7]">At Divine Academy, we are dedicated to empowering individuals with the knowledge and skills they need to thrive in today&apos;s rapidly changing world. We understand that continuous learning and upskilling are essential for personal growth and professional success.</p>
             <h3 className="text-4xl text-[#1b1b1b] font-bold tracking-tight mt-6">Our Vision</h3>
             <p className="mt-4 text-muted-foreground text base leading-[1.7]">
             Our vision is to be the leading skills training institute, recognized for our commitment to excellence in education and our ability to shape the future workforce. 
