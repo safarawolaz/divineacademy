@@ -21,13 +21,13 @@ const whyUs = [
 
 const AboutSection = () => {
   return (
-    <section className='w-full min-h-screen  lg:grid grid-cols-2 gap-10 py-20'>
+    <section className='w-full min-h-screen  grid sm:grid-cols-2 gap-10 py-20'>
         <div className="w-full h-full">
         <Image src='/aboutSecImg.jpg' height={3067} width={2469} alt='about image' objectFit='contain' />
         </div>
         <div className="px-4">
             <h3 className='text-[#1b1b1b] text-4xl  sm:text-5xl tracking-tight capitalize font-bold mt-12'>Why Choose Us?</h3>
-            <p className='text-base text-muted-foreground leading-[1.7] mt-8'>We are dedicated to empowering individuals with the knowledge and skills they need to thrive in today's rapidly changing world. We understand that continuous learning and upskilling are essential for personal growth and professional success. That's why we provide high-quality skills training programs designed to equip our students with the tools they need to excel in their chosen fields.</p>
+            <p className='text-base text-muted-foreground leading-[1.7] mt-8'>We are dedicated to empowering individuals with the knowledge and skills they need to thrive in today&apos;s rapidly changing world. We understand that continuous learning and upskilling are essential for personal growth and professional success. That&apos;s why we provide high-quality skills training programs designed to equip our students with the tools they need to excel in their chosen fields.</p>
             <h3 className='mt-4 text-3xl font-bold capitalize'>What we offer</h3>
             <div className="mt-4">
               {

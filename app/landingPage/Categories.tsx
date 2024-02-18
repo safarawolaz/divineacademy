@@ -36,7 +36,7 @@ const Categories = () => {
         <div className="grid sm:grid-cols-3 gap-8  rounded-lg w-full mt-12 ">
             {
                 courses.map(course => (
-                <Link href={course.link} className="w-full bg-white flex flex-col items-center justify-center px-6 py-10 border border-transparent hover:border-[#283891] transition-all rounded-lg">
+                <Link href={course.link} className="w-full bg-white flex flex-col items-center justify-center px-6 py-10 border border-transparent hover:border-[#283891] transition-all rounded-lg" key={course.id}>
                     <div className="w-20 h-20 bg-[#283891] flex items-center justify-center rounded-full">
                         {course.icon}
                     </div>
@@ -45,7 +45,7 @@ const Categories = () => {
                     <ul>
                         {
                             course.areas.map(area =>(
-                                <li className="flex items-center font-bold"><CheckCircle2 className="mr-2 h-5 w-5" />{area}</li>
+                                <li className="flex items-center font-bold" key={area}><CheckCircle2 className="mr-2 h-5 w-5" />{area}</li>
                             ))
                         }
                     </ul>

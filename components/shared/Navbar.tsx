@@ -17,7 +17,7 @@ const links = [
     {
         id: 2,
         title: 'our programs',
-        url: "/programs"
+        url: "/courses"
     },
     {
         id: 3,

@@ -23,7 +23,7 @@ export default function Home() {
       <Categories />
       <Cta />
       <Blogs />
-      <Footer />
+      
     </div>
   )
 }

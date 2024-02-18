@@ -33,7 +33,7 @@ export default function RootLayout({
         <main className='max-w-[1440px] mx-auto'>
           <Navbar />
               {children}
-          {/* <Footer /> */}
+          <Footer />
         </main>
       </body>
     </html>
